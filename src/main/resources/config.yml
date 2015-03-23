@@ -1,0 +1,54 @@
+##################
+## Block Stopper #
+##################
+
+placinglimiter:
+  enabled: true
+  blockBlacklist:
+  - 'ARMOR_STAND:&6You cannot place this item, sorry!'
+
+##################
+## Join Messages #
+##################
+message:
+  returning:
+    enabled: true
+    message: '&6Welcome back!'
+    submessage: ''
+    stayOn: 10
+    fadeIn: 2
+    fadeOut: 2
+  newplayer:
+    enabled: true
+    message: '&6Welcome to &6PassionCraft, &e%player%'
+    submessage: '&e*&6Bending&e*&6Towny&e*&6Survival&e*'
+    stayOn: 10
+    fadeIn: 2
+    fadeOut: 2
+##################
+# Found Diamonds #
+##################
+founddiamonds:
+  enabled: true
+  bypassPermission: 'pacpack.founddiamonds.bypass'
+
+##################
+#Spawner Changing#
+##################
+spawnerchanging:
+  enabled: true
+  changingPermission: 'pacpack.spawnerchanging.change.%eggname%'
+  bypassPermission: 'pacpack.spawnerchanging.bypass'
+
+##################
+# Entity Limiter #
+##################
+entitylimiter:
+  enabled: true
+  maxEntitiesPerChunk: 20
+  checkAnimals:
+  - COW
+  - SHEEP
+  - CHICKEN
+  - PIG
+  - RABBIT

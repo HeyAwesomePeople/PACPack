@@ -1,0 +1,8 @@
+name: PACPack
+main: me.HeyAwesomePeople.PACPack.PACPack
+version: 1.0
+commands:
+  pac:
+    description: PAC Command
+  reloadmsg:
+    description: Command to replace reload with to tell player no
